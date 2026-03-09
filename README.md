@@ -2,10 +2,10 @@
 
 ## Descripción del Proyecto
 
-Este taller te guiará en la construcción de una tienda virtual utilizando arquitectura multi-capa con contenedores Docker. El proyecto incluye:
+Este taller te guiará en la construcción de una tienda virtual llamada Tienda Virtual utilizando arquitectura multi-capa con contenedores Docker. El proyecto incluye:
 
 - **Proxy** ([Nginx](https://nginx.org/en/docs/beginners_guide.html)): Punto de entrada único desde Internet
-- **Aplicación Web** ([Flask](https://flask.palletsprojects.com/en/stable/tutorial/)): Interfaz de usuario de la Tienda Virtual
+- **Aplicación Web** ([Flask](https://flask.palletsprojects.com/en/stable/tutorial/)): Interfaz de usuario de Tienda Virtual
 - **API** ([FastAPI](https://fastapi.tiangolo.com/tutorial/)): Servicio de datos para usuarios, productos y carritos
 - **Base de Datos** ([PostgreSQL](https://www.postgresql.org/docs/15/index.html)): Almacenamiento persistente
 
@@ -701,7 +701,7 @@ Archivo `webapp/templates/index.html`:
 {% block content %}
 <div class="row">
     <div class="col-12">
-        <h1>Bienvenido a la Tienda Virtual</h1>
+        <h1>Bienvenido a Tienda Virtual</h1>
         <!-- TODO: Mostrar productos destacados -->
         <!-- TODO: Agregar carousel o grid de productos -->
     </div>
